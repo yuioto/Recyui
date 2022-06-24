@@ -56,8 +56,8 @@ iwd
 jfsutils
 kitty-terminfo
 lftp
-linux
-linux-headers
+linux-zen
+linux-zen-headers
 linux-atm
 linux-firmware
 livecd-sounds
@@ -157,3 +157,5 @@ zip
 zsh
 zfs-utils-git
 zfs-dkms-git
+jdk-openjdk
+v2raya

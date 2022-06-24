@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="archlinux_zfs_xfce_live"
-iso_label="ARCH_ZFS_XFCE_LIVE_$(date +%Y%m)"
+iso_name="recyui_archlinux_zfs_xfce_live"
+iso_label="ARCH_RECYUI_ZFS_XFCE_LIVE_$(date +%Y%m)"
 iso_publisher="Houge Langley"
 iso_application="samizdat"
 iso_version="$(date +%Y.%m.%d)"
@@ -19,3 +19,8 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
 )
+
+# Sing archzfs pgp
+pacman-key -a airootfs/etc/archzfs.gpg
+pacman-key --lsign-key DDF7DB817396A49B2A2723F7403BD972F75D9D76
+
