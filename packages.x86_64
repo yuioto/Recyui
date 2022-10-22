@@ -54,10 +54,6 @@ iwd
 jfsutils
 kitty-terminfo
 lftp
-linux-zen
-linux-zen-headers
-linux-atm
-linux-firmware
 livecd-sounds
 lsscsi
 lvm2
@@ -131,7 +127,6 @@ usb_modeswitch
 usbutils
 vim
 vpnc
-v2ray
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -174,6 +169,7 @@ linux-firmware
 jdk-openjdk
 v2raya
 xray
+#v2ray
 wimlib
 #xfce4-windowck-plugin
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="recyui_archlinux_zfs_xfce_live"
-iso_label="ARCH_RECYUI_ZFS_XFCE_LIVE_$(date +%Y%m)"
-iso_publisher="Houge Langley"
+iso_name="recyui_archlinux_xfce_live"
+iso_label="ARCH_RECYUI_XFCE_LIVE_$(date +%Y%m)"
+iso_publisher="yuioto"
 iso_application="samizdat"
 iso_version="$(date +%Y.%m.%d)"
 install_dir="arch"

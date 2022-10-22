@@ -10,6 +10,13 @@ Recyui ISO witer on USB.
 sudo dd if=<recyui.iso> of=/dev/<usb-dev-file> bs=16K && sync
 ```
 
+## proxy
+
+telegram proxy for ws.neko
+```shell
+java -jar /ect/skel/App/ws.neko.jar
+```
+
 ## wimlib
 
 Wiki: https://wiki.archlinux.org/title/wimlib
