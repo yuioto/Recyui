@@ -155,7 +155,25 @@ yubikey-manager
 yubikey-personalization-gui
 zip
 zsh
-zfs-utils-git
-zfs-dkms-git
+#
+#
+#
+### ZFS kernel dkms
+#zfs-utils-git
+#zfs-dkms-git
+zfs-linux-zen
+zfs-linux-hardened
+#
+### Linux kernel
+#linux-zen
+#linux-zen-headers
+linux-atm
+linux-firmware
+#
+### Recyui packages
 jdk-openjdk
 v2raya
+xray
+wimlib
+#xfce4-windowck-plugin
+

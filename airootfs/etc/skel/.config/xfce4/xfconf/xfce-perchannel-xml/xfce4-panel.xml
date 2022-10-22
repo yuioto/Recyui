@@ -7,176 +7,98 @@
     <value type="int" value="2"/>
     <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-1" type="empty">
-      <property name="background-alpha" type="uint" value="76"/>
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="19"/>
+        <value type="int" value="1"/>
+        <value type="int" value="22"/>
+        <value type="int" value="27"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="9"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="10"/>
+      </property>
       <property name="background-style" type="uint" value="0"/>
-      <property name="disable-struts" type="bool" value="false"/>
       <property name="enter-opacity" type="uint" value="80"/>
       <property name="leave-opacity" type="uint" value="80"/>
-      <property name="length" type="uint" value="100"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="2"/>
-        <value type="int" value="3"/>
-        <value type="int" value="15"/>
-        <value type="int" value="6"/>
-        <value type="int" value="8"/>
-        <value type="int" value="9"/>
-        <value type="int" value="4"/>
-      </property>
-      <property name="position" type="string" value="p=8;x=960;y=1064"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="26"/>
     </property>
     <property name="panel-2" type="empty">
-      <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="disable-struts" type="bool" value="false"/>
+      <property name="position" type="string" value="p=12;x=133;y=743"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="length" type="uint" value="100"/>
       <property name="enter-opacity" type="uint" value="80"/>
       <property name="leave-opacity" type="uint" value="80"/>
-      <property name="length" type="uint" value="100"/>
-      <property name="mode" type="uint" value="0"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="18"/>
-        <value type="int" value="5"/>
-        <value type="int" value="13"/>
-        <value type="int" value="10"/>
-        <value type="int" value="14"/>
-        <value type="int" value="11"/>
-        <value type="int" value="7"/>
+        <value type="int" value="24"/>
+        <value type="int" value="26"/>
+        <value type="int" value="28"/>
+        <value type="int" value="29"/>
+        <value type="int" value="23"/>
       </property>
-      <property name="position" type="string" value="p=6;x=683;y=13"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="24"/>
+      <property name="mode" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="clipman" type="empty">
-      <property name="settings" type="empty">
-        <property name="max-texts-in-history" type="uint" value="1000"/>
-        <property name="show-qr-code" type="bool" value="true"/>
-      </property>
-      <property name="tweaks" type="empty">
-        <property name="never-confirm-history-clear" type="bool" value="true"/>
-      </property>
-    </property>
-    <property name="plugin-10" type="string" value="clock">
-      <property name="digital-format" type="string" value="%A, %B %_d %R:%S"/>
-      <property name="mode" type="uint" value="2"/>
-      <property name="timezone" type="string" value="Asia/Shanghai"/>
-      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
-    </property>
-    <property name="plugin-11" type="string" value="actions"/>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-14" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-15" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-18" type="string" value="applicationsmenu">
-      <property name="button-icon" type="string" value="org.xfce.panel.whiskermenu"/>
-      <property name="button-title" type="string" value="Meue"/>
-      <property name="show-button-title" type="bool" value="false"/>
-      <property name="show-generic-names" type="bool" value="false"/>
-      <property name="show-menu-icons" type="bool" value="true"/>
-      <property name="show-tooltips" type="bool" value="true"/>
-    </property>
-    <property name="plugin-2" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-3" type="string" value="tasklist">
-      <property name="flat-buttons" type="bool" value="false"/>
-      <property name="grouping" type="uint" value="1"/>
-      <property name="include-all-monitors" type="bool" value="true"/>
-      <property name="include-all-workspaces" type="bool" value="false"/>
-      <property name="show-handle" type="bool" value="false"/>
-      <property name="show-labels" type="bool" value="true"/>
-      <property name="show-only-minimized" type="bool" value="false"/>
-      <property name="show-wireframes" type="bool" value="false"/>
-      <property name="sort-order" type="uint" value="1"/>
-      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
-    </property>
-    <property name="plugin-4" type="string" value="pager">
-      <property name="rows" type="uint" value="1"/>
+      <property name="expand" type="bool" value="false"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
-      <property name="icon-size" type="int" value="0"/>
-      <property name="known-items" type="array">
-        <value type="string" value="icalingua1"/>
-        <value type="string" value="vlc"/>
-        <value type="string" value="alixby1"/>
-        <value type="string" value="qBittorrent"/>
-        <value type="string" value="TelegramDesktop"/>
-        <value type="string" value="Fcitx"/>
-      </property>
+      <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="gnome-mplayer"/>
-        <value type="string" value="blueberry-tray.py"/>
-        <value type="string" value="以太网连接“有线连接 1”已激活"/>
         <value type="string" value="thunar"/>
-        <value type="string" value="guake"/>
-        <value type="string" value="fcitx5 tray window"/>
-        <value type="string" value="pamac-tray"/>
-        <value type="string" value="网络管理器小程序"/>
-        <value type="string" value="clipman 剪贴板管理器"/>
-      </property>
-      <property name="menu-is-primary" type="bool" value="false"/>
-      <property name="names-ordered" type="array">
-        <value type="string" value="zoom"/>
-        <value type="string" value="simplescreenrecorder"/>
-        <value type="string" value="task manager"/>
-        <value type="string" value="vlc"/>
-        <value type="string" value="xfce terminal"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="dropbox"/>
-        <value type="string" value="discord"/>
-        <value type="string" value="insync"/>
-        <value type="string" value="variety"/>
-        <value type="string" value="telegramdesktop"/>
-        <value type="string" value="blueberry-tray.py"/>
-        <value type="string" value="flameshot"/>
-        <value type="string" value="pamac-tray"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="clipman"/>
-      </property>
-      <property name="names-visible" type="array">
-        <value type="string" value="evolution-alarm-notify"/>
-        <value type="string" value="discord"/>
-        <value type="string" value="pragha music player"/>
-        <value type="string" value="simplescreenrecorder"/>
-        <value type="string" value="pamac-tray"/>
-        <value type="string" value="vlc"/>
-        <value type="string" value="blueberry-tray.py"/>
         <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="task manager"/>
-        <value type="string" value="insync.py"/>
         <value type="string" value="telegramdesktop"/>
-        <value type="string" value="variety"/>
-        <value type="string" value="flameshot"/>
-        <value type="string" value="bluetooth"/>
-        <value type="string" value="clipman"/>
-        <value type="string" value="redshift-gtk"/>
-        <value type="string" value="scp-dbus-service.py"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="gpick"/>
-        <value type="string" value="clipit"/>
-        <value type="string" value="dropbox"/>
+        <value type="string" value="ibus 面板"/>
       </property>
-      <property name="show-frame" type="bool" value="false"/>
-    </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance2282;gnome-mplayer;kdeconnect.mpris_000b7d35bc7f4e1ab7a1c2b906673930;kdeconnect.mpris_02ccaee27c2d480d8a49c357e6f9f5f9;kdeconnect.mpris_02d72238e3b6493db24955e1cad118ff;kdeconnect.mpris_03bf706acbf2406e95c259d7e7af06fc;kdeconnect.mpris_04760096ed1b401db978e3f2092816b4;kdeconnect.mpris_05ffd35c0b0b4d22a2296388051bf2ab;kdeconnect.mpris_06aba66e47e54af690d9e435066c7485;kdeconnect.mpris_0a027dfcb3ac48c79822ef6a671fdbd2;kdeconnect.mpris_0cc108bf90f949ad8d26dbb4ad1eb6ed;kdeconnect.mpris_0de58871020c4cf0973b9c920803e048;kdeconnect.mpris_0e9719f78fae425abd6677dab2a982fa;kdeconnect.mpris_0f0c736b23fb44aea52256d56fe8a9b0;kdeconnect.mpris_11ea3a6bea9347f0afbfdf38db71f470;kdeconnect.mpris_12362678e0dc43fca0025770c515d33e;kdeconnect.mpris_13c4af789e184387ae14b085c9320356;kdeconnect.mpris_16f23bb386444afab98f4178ac1df808;kdeconnect.mpris_198a121577be4b8a826e8e64bba0a258;kdeconnect.mpris_1b8393717d1f4125a38f573f1a227ed9;kdeconnect.mpris_1d842e889d31463a9c08a1104e93e372;kdeconnect.mpris_1ddc5d11f4af4b86a966a300f2617005;kdeconnect.mpris_2104a7ca99e4412cab03c42872138457;kdeconnect.mpris_2129eb85b0ac4d2b9f7202964159a4bd;kdeconnect.mpris_216425b6d221424fbd02b57198c3bf54;kdeconnect.mpris_23dcd07bdaa54cdd9e7d8968a6e97c9c;kdeconnect.mpris_242e87529f0a4020af05dc67d389006e;kdeconnect.mpris_2472a88fddca471d91c41600f24caa42;kdeconnect.mpris_271ef2bbef454752b19933a82da14ea8;kdeconnect.mpris_2722d90bb6e644d1a3644f8b24968274;kdeconnect.mpris_27297896bf0d4cf1a3a107db32bd5abe;kdeconnect.mpris_296e487e6a754230864afc169cd12ea1;kdeconnect.mpris_29bbe7ff51cc4716ac21634217223dc7;kdeconnect.mpris_29de66a25ad04783b674c75ba7b745e8;kdeconnect.mpris_29e0ed72cfd9427e83114dcbec8589ae;kdeconnect.mpris_29ec915bd9ad4138a6ae12f1568647b5;kdeconnect.mpris_2c7b23905de2404f95496faad2c30803;kdeconnect.mpris_2e3fcdb243f240ddabae3fea632d8557;kdeconnect.mpris_2e9793ee6ce240d4bd494e7b143c44d7;kdeconnect.mpris_2ebc8c54c5fd47fbba66d550a97d11a5;kdeconnect.mpris_308159593b394e78bdf8d45bad7504a0;kdeconnect.mpris_30aace54f0d441659deef4db4f65bfde;kdeconnect.mpris_31e41391ae004532b61ac83a6418ae57;kdeconnect.mpris_32c578e10a4f4dd8a11c47ec0963fc9a;kdeconnect.mpris_3302d9ec86b54c5f91ccd6eb17d81c26;kdeconnect.mpris_33cf7999bc88472bbb8e958332a0f587;kdeconnect.mpris_33d9609e37484b469e92f5deeeeb3be5;kdeconnect.mpris_35bd9bafb653451884eb504b13ed2514;kdeconnect.mpris_36218f8270394ef8921599a5dd3ac129;kdeconnect.mpris_37448eaaa30c4f3b87b46eff68d85bf1;kdeconnect.mpris_3b973a234a9a4a65a5c01808a198e7ad;kdeconnect.mpris_3bcf2265b2644f1a8f91b619472c1359;kdeconnect.mpris_3cb99eced8b041bb89710de052e3d792;kdeconnect.mpris_3eb38480441a4c7d9ce1d982f504bf19;kdeconnect.mpris_41066391821742138704f882a35c4bbd;kdeconnect.mpris_42f9c4fa83c44b2086262bc77146ccff;kdeconnect.mpris_44562c71e8384c43872fad9963bfad2d;kdeconnect.mpris_4615521439ac40668e2b7882023df101;kdeconnect.mpris_475935386029408e806cfb72ae86b45f;kdeconnect.mpris_4878ca7a34d943b99f6403e006d78eaa;kdeconnect.mpris_49ed2e7a29da45b2832bfa6cb8d3b495;kdeconnect.mpris_4a62370b9d044be097e70676a6d44b4d;kdeconnect.mpris_4ac8337ac4b746de84a2f74faef6cd9e;kdeconnect.mpris_4de0ec86c8fe40d9a04aee1601bd49cc;kdeconnect.mpris_4df48330901945d088212043bc9c0484;kdeconnect.mpris_4fb1f8195cca499bb7da275b5d180ab7;kdeconnect.mpris_4fb85c0ac3ab4961aae549c645eedbb0;kdeconnect.mpris_50a0e286bb0145708b9b9eb3b2cdc707;kdeconnect.mpris_51181c13c0d34c84b7f31ca8306bc23b;kdeconnect.mpris_55c46fa3096048eeb4cb67978c6217eb;kdeconnect.mpris_5684987360394fe39968a5e87e60b9dd;kdeconnect.mpris_56d0297c85fe4156940744c417830ab4;kdeconnect.mpris_590bb734832448068db8972d6b456e30;kdeconnect.mpris_590f7ab6dcbe43388abc3c06ed45493c;kdeconnect.mpris_5bab8a3cd9194aae936823478f43781e;kdeconnect.mpris_5bf0cd3dbae74cf6839843c93522216c;kdeconnect.mpris_5ca8c3ebfe014ad38c44e8d95c99b0be;kdeconnect.mpris_5d0e1c55b2b646f081f0b77700f9983b;kdeconnect.mpris_5e90ce90e3da4461a4003761a7fa5123;kdeconnect.mpris_60690339088b4e8d8478f6fddcffb7c2;kdeconnect.mpris_609e3d15d1fb4fd899887539c6ff0566;kdeconnect.mpris_611fd9bb1acb47cfae5b298fcb271993;kdeconnect.mpris_62505381567c43fd87e28c7c03362d91;kdeconnect.mpris_62e8c529564749e58d09add76c34544e;kdeconnect.mpris_65baec5b1ba84a02b01445a8067aea7d;kdeconnect.mpris_65c6f31428c44b07935a2bc6ba563f52;kdeconnect.mpris_6ab0e96b738c4e46b9f70afe7485e099;kdeconnect.mpris_6b25e5fef81e4e57bfa8b47fe82d63a4;kdeconnect.mpris_6bbaba9a2a41475d852ea6c2c2626700;kdeconnect.mpris_6c34a16addb747029e179a1b534d68b2;kdeconnect.mpris_6e5d72c90cc546b89e1fafd13a0c3dee;kdeconnect.mpris_6e8c0914d8104e85b8b300a9727844d5;kdeconnect.mpris_6f6617b7fbdf4218ba7a8ce3b763ee49;kdeconnect.mpris_6fdb3b83361748caa239340c09e3bd6d;kdeconnect.mpris_75a02c134fbd417fbf12921291992d9f;kdeconnect.mpris_7791d96c4cba4dcb9335354806f0cbd0;kdeconnect.mpris_79a7086604d6497f82e13c4194e6f2ac;kdeconnect.mpris_79d65350287045fe900dc3686dd3f362;kdeconnect.mpris_7a3d71e0a62649198252cdae448af75b;kdeconnect.mpris_7c18252abd7543bab46e4be90523e173;kdeconnect.mpris_7de782368a5448e7a924593297da1bf1;kdeconnect.mpris_7ea46a5ecc4a4477a940ddcd5fb62822;kdeconnect.mpris_7ebbb1b8802d499eab93c4fd9b70f722;kdeconnect.mpris_82b6d496b7e148a3b0225f7794f9ef7d;kdeconnect.mpris_82f265c6db9c42dd94b57856e095aa5c;kdeconnect.mpris_83a57cab871840228387a170a71b21b0;kdeconnect.mpris_868debfa93774e74806840aacfb42a88;kdeconnect.mpris_86dc8c05991645bba850b3aaa41e45d3;kdeconnect.mpris_88016f0072ab4cdba24a864d3759d774;kdeconnect.mpris_8880b5a20a8f4079aa6ea16d92c140d6;kdeconnect.mpris_88c952682bb946339633fe38e964bdc6;kdeconnect.mpris_8908fc7423784bb0b83d3d4e96d09240;kdeconnect.mpris_8aaf2e00583f48debf188e5373899d2c;kdeconnect.mpris_8ac9fc550d7749c7989ed5f6ed2183fb;kdeconnect.mpris_8c0cddd1092e49beab1e4c975766dc06;kdeconnect.mpris_8ca2399bf3024a4abf0cce876b59b0df;kdeconnect.mpris_8d059500797a4b4287d8828514c8d4d6;kdeconnect.mpris_8d448c3026de40fd864ad744552a6e1f;kdeconnect.mpris_8e6103009f3d4146b06fdae776ba2148;kdeconnect.mpris_8f1746fe42814994bfa3c5a50eca8ac4;kdeconnect.mpris_8f28200178f04233a17202eb0050df4c;kdeconnect.mpris_9235f26d615146c19ef525842f02069a;kdeconnect.mpris_92b463fd8a0e4ec491872e46e5345fa9;kdeconnect.mpris_933261ecda9049a99563570152d053d9;kdeconnect.mpris_93bf4921159246aba43b2a83b08b5b51;kdeconnect.mpris_93d5e7a6dada4ca5ad8eb88c9145c990;kdeconnect.mpris_940b6f3324da4966aecef3f99b5d6b2e;kdeconnect.mpris_98c828261e214c4caeae154bd327a3e9;kdeconnect.mpris_9999dd9312584d759ff451c07f22166c;kdeconnect.mpris_99b3592a5f394938bd3a03f1acc423d5;kdeconnect.mpris_9a0a51d8483b4545ba929732e155145a;kdeconnect.mpris_9ce4b44c8d8a4caca04931feb2447bcb;kdeconnect.mpris_9ddc4207a01949229dde4c0b0f358dc4;kdeconnect.mpris_9de89b5232ba47cca5d7d55e54d5a257;kdeconnect.mpris_9e0ddf31c6804f70bb07de0d5774bf8b;kdeconnect.mpris_9e91ed003827423a962f976ee6d02136;kdeconnect.mpris_9f14f4b53f18493f9324c1c498487ea1;kdeconnect.mpris_9f9824d0eb3a48a58ad1f2694e078f09;kdeconnect.mpris_9fde5f2d3a2d493c888b1e529f1d68dc;kdeconnect.mpris_a3adf60e60b345a2b5e37cba2ba725b0;kdeconnect.mpris_a484e7398e3a4ac7a3c96cad617d210a;kdeconnect.mpris_a4a1448cee664e719c3b431903cb5f1e;kdeconnect.mpris_a4e509f570244f72bbd98f8d271d706b;kdeconnect.mpris_a5c4f9b370f54845b85a5bf53593a60f;kdeconnect.mpris_a62da9cf74e544eabc58c917a4a1eadc;kdeconnect.mpris_aa9fa5cf5f9d48e99e2f64264d0bf481;kdeconnect.mpris_acf5b1d594144eabb3c6073df8841f0f;kdeconnect.mpris_af4b29a1c41f4987b99e5e33221c6dea;kdeconnect.mpris_afb4fd8ba7f948fd912d102a127ac2ed;kdeconnect.mpris_b0de30cf4c374a659305ad1f6f21596f;kdeconnect.mpris_b5401959056a4642aeb33e2c35617cb4;kdeconnect.mpris_b7fa4cb8f9de4069b03bc704e9cbd944;kdeconnect.mpris_b808f585c03749c0901e340269003910;kdeconnect.mpris_b8e1184e89394a48bb6cdece151b9f34;kdeconnect.mpris_b9522a696e5c4d5bb4456c65a99db143;kdeconnect.mpris_b961a05973c1463489f8486fbba6ba01;kdeconnect.mpris_babbd7c2641a409f95061244c44e68d5;kdeconnect.mpris_bc3cbafbfdbc4540b3bd49e59a6ace99;kdeconnect.mpris_bc85890afbb34d2daed63b58bf706638;kdeconnect.mpris_bd0c450e94b84ea98ce2f6a2fd054220;kdeconnect.mpris_bdc257927b224ba2aece9b271cca3f64;kdeconnect.mpris_c09f8cbc0b22490e80c8ea2a4a4c9a35;kdeconnect.mpris_c0d88852231a4248881a6729d87ae63e;kdeconnect.mpris_c17d02b910794510bc16340afbd0259f;kdeconnect.mpris_c21c0bb5771740f59382083a2a97d248;kdeconnect.mpris_c4fff91ca5cc438d9a4dd26f85ff0233;kdeconnect.mpris_c5fc38ca99b44fdc8d1134f32ae2e1bf;kdeconnect.mpris_cb1725fa521f4ba4b5b1403da6b00f66;kdeconnect.mpris_cb698ce38ec84acca05bd5cd57950df9;kdeconnect.mpris_cf48de7409714bf295f1eb6dd7817349;kdeconnect.mpris_cfbbb1eedf204019bb1016479cbf3314;kdeconnect.mpris_cfcba76ebbe04a7d899d1580edc760f4;kdeconnect.mpris_d0601788bdbb4b36a3dc789c27befcf0;kdeconnect.mpris_d0edc4d5990f4fc19f7480ea42e56cef;kdeconnect.mpris_d236f3de3031476cab6dfb88a355c8bb;kdeconnect.mpris_d38ff15a101140dbb1b3fbbef2e554c8;kdeconnect.mpris_d47921bb7a56431ca854f3a6c9f4ae56;kdeconnect.mpris_d61c0e3d85014b55987aa9738a55160d;kdeconnect.mpris_d806c5f49180459e94b85beff4ae0bdc;kdeconnect.mpris_d8d6b0b27b124b179c7d807acf5633d1;kdeconnect.mpris_da9193d4eadb46cea115490b8beb9af3;kdeconnect.mpris_dacde77317fe408b845c3e65769f652f;kdeconnect.mpris_db3a8b9e4f4f46b08817b255bfd4268e;kdeconnect.mpris_dcf3465c4d2a4821aa608473139ddab1;kdeconnect.mpris_dd68d927023a42a2837298f62d33ca75;kdeconnect.mpris_dd8cfe26f2a543f39ae47b361084735c;kdeconnect.mpris_decd5c6e3dac409dbceb02a18ca35534;kdeconnect.mpris_defb7295c60747d3ac1b52dfea1e904e;kdeconnect.mpris_dfd5d69fe61e4c13b82862b5205ee80b;kdeconnect.mpris_e036520f6568490882f7939b95b1da12;kdeconnect.mpris_e07c11a5d3d44724be866240a362d50c;kdeconnect.mpris_e2ea01fd8cb8476aa09f1e45169d4f88;kdeconnect.mpris_e4158470e81f4d579b361913f5bd9b7c;kdeconnect.mpris_e526214c2af34f019381197de3e0728c;kdeconnect.mpris_e98dadd869834074bffff634f379f06c;kdeconnect.mpris_eaf0520631794d2eac9227971bd9f90a;kdeconnect.mpris_ecb80040e22444199b90d64fa4b87330;kdeconnect.mpris_eccbf095be804a77b38c7f538b297c3d;kdeconnect.mpris_eed7fed21fbc4a8cb0cffb6db6d01c4f;kdeconnect.mpris_eeeb4f1884e44fb0b1256bbe0c563f5c;kdeconnect.mpris_ef7e8f4c6ab64a4399c818496202ba14;kdeconnect.mpris_f0c09041a14a4a9c87bfd98234426e3d;kdeconnect.mpris_f28ff5411f284617892277a256b6e53b;kdeconnect.mpris_f2b4fde0877f4a56aa4fdeb43565f700;kdeconnect.mpris_f670455953814aaca03e736bf972f480;kdeconnect.mpris_f6f657d3c0134d3ca6533c23214636b3;kdeconnect.mpris_fa4f3e42d49e4aac82d9388a51526dd2;kdeconnect.mpris_fc85ffbd4a894c30a6bbe4920927f100;kdeconnect.mpris_fc9723d3daa9440a8744a1e509bcf14c;kdeconnect.mpris_fcc0a5029c754845adeafeabc3ee6834;kdeconnect.mpris_fd1b6d19676047e781c10a57e63eef3d;kdeconnect.mpris_fe9a67abdab7418590339ea21a5ff857;kdeconnect.mpris_ff77405730b24b6eaba2d4ddfeb0f134;kdeconnect.mpris_ffc2011348e64c578e47593cc52ac3a5;NeteaseCloudMusic;pragha;spotify;tdesktop;vlc"/>
+      <property name="known-items" type="array">
+        <value type="string" value="TelegramDesktop"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
-    <property name="plugin-5" type="string" value="directorymenu">
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="timezone" type="string" value="Asia/Shanghai"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="digital-format" type="string" value="%a %_d %b, %p %I:%M:%S "/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-19" type="string" value="wckbuttons"/>
+    <property name="plugin-22" type="string" value="directorymenu">
       <property name="base-directory" type="string" value="/home/yuioto"/>
     </property>
-    <property name="plugin-7" type="string" value="notification-plugin"/>
+    <property name="plugin-23" type="string" value="notification-plugin"/>
+    <property name="plugin-24" type="string" value="tasklist">
+      <property name="middle-click" type="uint" value="1"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+    </property>
+    <property name="plugin-26" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-28" type="string" value="showdesktop"/>
+    <property name="plugin-29" type="string" value="pager"/>
   </property>
 </channel>

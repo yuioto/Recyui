@@ -29,13 +29,7 @@
       <property name="Client4_PerScreen" type="empty"/>
     </property>
   </property>
-  <property name="splash" type="empty">
-    <property name="Engine" type="empty"/>
-  </property>
   <property name="shutdown" type="empty">
-    <property name="LockScreen" type="bool" value="false"/>
-  </property>
-  <property name="compat" type="empty">
-    <property name="LaunchGNOME" type="bool" value="true"/>
+    <property name="LockScreen" type="bool" value="true"/>
   </property>
 </channel>

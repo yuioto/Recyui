@@ -18,9 +18,23 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
+  
+  ["/etc/gshadow"]="0:0:0400"
+  
+  ["/root/.ssh"]="0:0:0700"
+  ["/etc/skel/.ssh/"]="0:0:0700"
+  ["/root/.ssh/authorized_keys"]="0:0:0600"
+  ["/etc/skel/.ssh/authorized_keys"]="0:0:0600"
 )
 
+
 # Sing archzfs pgp
+curl https://archzfs.com/archzfs.gpg > airootfs/etc/archzfs.gpg
 pacman-key -a airootfs/etc/archzfs.gpg
 pacman-key --lsign-key DDF7DB817396A49B2A2723F7403BD972F75D9D76
+
+# Sing yuioto repo
+pacman-key -a airootfs/etc/yuioto.gpg
+pacman-key --lsign-key 8FE2699529938038384C161B1940CA94064229D9
+
 
